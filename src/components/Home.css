@@ -9,6 +9,7 @@ body {
   }
   
 
+
 .main {
     background-color: black;
     
@@ -391,6 +392,7 @@ button {
 
 
 .firstTitle{
+    
     animation: firstTit 1s ease 0s 1 normal forwards;
 }
 @keyframes firstTit {
@@ -473,8 +475,114 @@ button {
 
 
 .textUser {
-    font-size: 15px !important;
+    font-family: "DM Sans", sans-serif !important;
+    font-size: 18px !important;
+    color: #ffffffcc !important;
+   
 }
+/* MIDDLPE PAGE  */
+
+.margin {
+    margin-top: 10%;
+}
+
+.nextHead {
+  padding: 100px 20px;
+  background-color: #000000;
+  text-align: center;
+}
+
+.titleMidle {
+  font-family: "Poppins", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  background: linear-gradient(to right, #f71083, #f8cd0b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+}
+
+.subtitleMidle {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  color: #ffffffcc;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* FOOTER  */
+/* FOOTER  */
+/* FOOTER  */
+/* FOOTER  */
+/* FOOTER  */
+
+.footer {
+    background-color: #000;
+    color: #ccc;
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+  }
+  
+  .footer::before {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100%;
+    background: linear-gradient(to right, #f71083, #f8cd0b);
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: blur(2px);
+  }
+  
+  
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .footer-left .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+  }
+  
+  .footer-left p {
+    font-size: 14px;
+    margin-top: 8px;
+  }
+  
+  .footer-right {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .footer-right a {
+    font-family: "DM Sans", sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.4s ease;
+  }
+  
+  .footer-right a:hover {
+    color: #f8803c;
+  }
+/* FOOTER  */
+/* FOOTER  */
+/* FOOTER  */
+/* FOOTER  */
+
+  
 
 
 /* Responsive pour mobile */
@@ -508,3 +616,5 @@ button {
     
     
   }
+
+
