@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Helmet } from "react-helmet";
 import ContactModal from "./ContactModal";
 import "./Home.css";
 import FadeInSection from "./FadeInSection";
@@ -9,6 +10,20 @@ const Home = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Yizweb3 Agency - Création de sites web modernes & réactifs</title>
+        <meta
+          name="description"
+          content="Yizweb3 Agency vous accompagne dans la création de votre site vitrine, rapide, professionnel et optimisé. Disponible, flexible, et orienté conversion."
+        />
+        <meta
+          name="keywords"
+          content="freelance web, création site vitrine, React, développeur freelance, agence web, yizweb3"
+        />
+        <meta name="author" content="Yizweb3 Agency" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://yizweb3-agency.vercel.app/" />
+      </Helmet>
     <div className="main">
       <nav>
         <div className="logo">
