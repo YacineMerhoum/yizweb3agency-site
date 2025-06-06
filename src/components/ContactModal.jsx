@@ -16,7 +16,7 @@ const ContactModal = ({ onClose }) => {
       <div className={`modal-content ${isClosing ? "fade-out" : ""}`}>
         <h2>Contactez-nous</h2>
         <p>
-          Envoyez un mail à <strong>yizweb3agency@gmail.com</strong>
+          Envoyez un mail à <strong><a href="mailto:yizweb3agency@gmail.com">yizweb3agency@gmail.com</a></strong>
         </p>
         <button className="close-btn" onClick={handleClose}>
           Fermer

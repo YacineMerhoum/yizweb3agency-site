@@ -13,8 +13,8 @@ const Footer = () => {
         </div>
 
         <div className="footer-right">
-          <a href="#!" target="_blank" rel="noopener noreferrer">Mentions légales</a>
-          <a href="#!" target="_blank" rel="noopener noreferrer">Politique de confidentialité</a>
+          {/* <a href="#!" target="_blank" rel="noopener noreferrer">Mentions légales</a>
+          <a href="#!" target="_blank" rel="noopener noreferrer">Politique de confidentialité</a> */}
 
           <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <FaLinkedin size={20} style={{ verticalAlign: 'middle', marginRight: 6 }} />
