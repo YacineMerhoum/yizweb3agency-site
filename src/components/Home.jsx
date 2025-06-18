@@ -4,6 +4,7 @@ import ContactModal from "./ContactModal";
 import "./Home.css";
 import FadeInSection from "./FadeInSection";
 import Footer from "./Footer";
+import ScrollToTop from "./ScrollToTop";
 
 const Home = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -119,6 +120,7 @@ const Home = () => {
         <div className="circle2"></div>
       </div>
     </div>
+    <ScrollToTop />
     <Footer/>
     
     </>
